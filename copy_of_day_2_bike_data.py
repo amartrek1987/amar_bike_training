@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 # %matplotlib inline
 
 # import hour.csv
-bikedf=pd.read_csv(r"C:\Users\kaila\Downloads\bike+sharing+dataset (1)\hour.csv")
+bikedf=pd.read_csv(r".\hour.csv")
 
 numcols=bikedf[['temp', 'atemp', 'hum', 'windspeed','casual', 'registered',
                 'cnt']]
